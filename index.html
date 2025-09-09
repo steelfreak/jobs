@@ -1,17 +1,273 @@
-<!DOCTYPE html><html data-bs-theme="light" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title>Job Portal with External JavaScript</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"><link rel="stylesheet" href="assets/css/styles.min.css"></head><body><nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark"><div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/favicon-32x32.png"></span><span>Career.dgulu</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navcol-5"><ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link active" href="#listings">Job Listings</a></li><li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li><li class="nav-item"><a class="nav-link" href="#testimony">Testimonies</a></li><li class="nav-item"><a class="nav-link" href="#contactus">Contact Us</a></li></ul></div></div></nav><div style="background: url(&quot;assets/img/career.webp&quot;) center / cover;padding-bottom: 55px;"><div class="container" style="padding-top: 0px;"><div class="row row-cols-1" style="padding-top: 361px;padding-bottom: 0px;"><div class="col" style="margin-top: 0px;"><h2 class="text-center" style="padding-top: 15px;padding-bottom: 15px;padding-right: 0px;margin-left: 0px;margin-right: 0px;color: var(--bs-secondary-bg);font-size: 54.112px;font-weight: bold;text-decoration: underline;background: rgba(17,15,15,0.54);border-width: 6px;border-style: groove;border-radius: 28px;">Search Jobs</h2></div><div class="col"><input type="text" aria-label="Search Jobs" id="job-search-input" placeholder="Search jobs by title, location or company..." style="font-size: 21px;background: rgb(255,255,255);border-radius: 11px;width: 100%;height: 50.5px;text-align: center;"></div></div></div></div><div class="container" id="listings" style="padding-bottom: 148px;padding-top: 55px;"><div class="row row-cols-1 text-center"><div class="col"><h1 style="margin-bottom: 59px;">Job Listings</h1></div><div class="col text-start" style="max-width: 720px;margin-right: auto;margin-left: auto;"><div class="row row-cols-1 row-cols-md-2"><div class="col"><div id="jobs-list"></div></div><div class="col"><div class="row row-cols-1"><div class="col" style="text-align: center;"><label class="col-form-label text-uppercase fs-1 fw-bold text-center" style="text-decoration: underline;font-weight: bold;">Categories</label></div><div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Technology/ IT</label></div><div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Medical</label></div><div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Civil Engeneering</label></div><div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Mechanical Engeneering</label></div><div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Social Sciences</label></div><div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Managerial/ HR</label></div></div></div></div></div></div></div><div style="background: rgba(0,148,255,0.17);"><div class="container"><figure><blockquote class="blockquote"><p class="text-center mb-0" style="padding-top: 26px;">Opportunities don’t happen. You create them.</p></blockquote><figcaption class="blockquote-footer text-center">Chris Grosser<br><br></figcaption></figure></div></div><div class="container py-4 py-xl-5" id="aboutus"><div class="row mb-5"><div class="col-md-8 col-xl-6 text-center mx-auto"><h2>About Us</h2><p class="text-start w-lg-50">Carrer.dgulu is a dedicated online platform providing and listing job. opportunities to help individuals find meaningful employment. Our mission is to connect job seekers with employers by making the job&nbsp;search process easy, accessible, and efficient.&nbsp;<br><br>We strive to support&nbsp;career growth and economic empowerment in our community by offering the latest job listings and valuable resources for job hunters.<br><br></p></div></div><div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3"><div class="col"><div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/pexels-diohasbi-3280130.jpg"><div class="card-body p-4"><p class="text-primary card-text mb-0"><strong>Emphasis: 1</strong></p><h4 class="card-title"><strong>Community</strong></h4><p class="card-text">Supporting local employment and economic growth.</p></div></div></div><div class="col"><div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/pexels-wo-nfoni-media-311038690-28462881.jpg"><div class="card-body p-4"><p class="text-primary card-text mb-0"><strong>Emphasis: 2</strong></p><h4 class="card-title"><strong>Empowerment</strong></h4><p class="card-text">Helping individuals take control of their career journeys</p></div></div></div><div class="col"><div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/pexels-diaznash-865530.jpg"><div class="card-body p-4"><p class="text-primary card-text mb-0"><strong>Emphasis: 3</strong></p><h4 class="card-title"><strong>Accessibility</strong></h4><p class="card-text">Making job opportunities easy to find and available to all.</p></div></div></div></div></div><div class="container py-4 py-xl-5" id="testimony"><div class="row mb-5"><div class="col-md-8 col-xl-6 text-center mx-auto"><h2>Testimonials</h2></div></div><div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3"><div class="col"><div><p class="bg-body-tertiary border rounded border-0 p-4">The service was exceptional and truly helped me achieve my goals. Highly recommended!</p><div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/2151696440.webp"><div><p class="fw-bold text-primary mb-0"><strong>Amina Nakato</strong></p><p class="text-muted mb-0"><strong>Teacher</strong></p></div></div></div></div><div class="col"><div><p class="bg-body-tertiary border rounded border-0 p-4">Professional and reliable—very impressed with the quality and support provided.</p><div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/50906.webp"><div><p class="fw-bold text-primary mb-0"><strong>Joseph Okello</strong></p><p class="text-muted mb-0"><strong>Engineer</strong></p></div></div></div></div><div class="col"><div><p class="bg-body-tertiary border rounded border-0 p-4">Friendly staff and excellent communication. I felt valued every step of the way.</p><div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/2148894886.webp"><div><p class="fw-bold text-primary mb-0"><strong>Grace Namuyimba</strong></p><p class="text-muted mb-0"><strong>Nurse</strong></p></div></div></div></div></div></div><section class="position-relative py-4 py-xl-5"><div class="container position-relative" id="contactus" style="padding-bottom: 55px;"><div class="row mb-5"><div class="col-md-8 col-xl-6 text-center mx-auto"><h2>Contact us</h2><p class="w-lg-50">If you have any questions, feedback, or need assistance, please don't hesitate to reach out to us. We're here to help and look forward to hearing from you!<br>Detailed provided below are more efficient i.e Phone, WhatsApp and mail Address</p></div></div><div class="row d-flex justify-content-center"><div class="col-md-6 col-lg-4 col-xl-4"><div class="d-flex flex-column justify-content-center align-items-start h-100"><div class="d-flex align-items-center p-3"><div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone">
-  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
-</svg></div><div class="px-2"><h6 class="mb-0">Phone</h6><p class="mb-0">+256 783 338 952</p></div></div><div class="d-flex align-items-center p-3"><div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-whatsapp">
-  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
-</svg></div><div class="px-2"><h6 class="mb-0">WhatsApp</h6><p class="mb-0">+256 783 338 952</p></div></div><div class="d-flex align-items-center p-3"><div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
-  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
-</svg></div><div class="px-2"><h6 class="mb-0">Email</h6><p class="mb-0">support@dgulu.com</p></div></div><div class="d-flex align-items-center p-3"><div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pin">
-  <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001m-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282"></path>
-</svg></div><div class="px-2"><h6 class="mb-0">Location</h6><p class="mb-0">Gulu University Street</p></div></div></div></div><div class="col-md-6 col-lg-5 col-xl-4"><div><form class="p-3 p-xl-4" method="post"><div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name"></div><div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email"></div><div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div><div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div></form></div></div></div></div></section><footer class="text-center bg-dark"><div class="container text-white py-4 py-lg-5"><ul class="list-inline"><li class="list-inline-item me-4"><a href="#aboutus" style="color: rgb(254,254,254);">About Us</a></li><li class="list-inline-item me-4"><a href="#listings" style="color: rgb(254,254,254);">Job Listings</a></li><li class="list-inline-item me-4"><a href="#testimony" style="color: rgb(254,254,254);">Testimonies</a></li><li class="list-inline-item me-4"><a href="#contactus" style="color: rgb(254,254,254);">Contact Us</a></li></ul><ul class="list-inline"><li class="list-inline-item me-4"></li><li class="list-inline-item me-4"><a class="link-light" href="https://dgulu.com/" target="_blank">Gulu City Directory</a></li><li class="list-inline-item"></li></ul><p>All rights reserved @ Gulu City Directory</p><ul class="list-inline"><li class="list-inline-item me-4"><a href="https://www.facebook.com/people/Gulu-City-Directory/61578708332624/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook text-light">
-  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
-</svg></a></li><li class="list-inline-item me-4"><a href="https://www.youtube.com/@dgulucom" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-youtube text-light">
-  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z"></path>
-</svg></a></li><li class="list-inline-item me-4"><a href="https://www.linkedin.com/company/dgulu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-linkedin text-light">
-  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"></path>
-</svg></a></li><li class="list-inline-item me-4"><a href="https://x.com/dgulucom" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter-x text-light">
-  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
-</svg></a></li></ul><p class="text-muted mb-0">Copyright © 2025 Brand</p></div></footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script src="assets/js/script.min.js"></script></body></html>
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Job Portal with External JavaScript</title>
+    <meta name="theme-color" content="rgba(97,0,255,0.63)">
+    <link rel="canonical" href="https://career.dgulu.com/">
+    <meta property="og:url" content="https://career.dgulu.com/">
+    <meta name="twitter:description" content="Career.dgulu.com is your trusted platform for career growth, offering valuable job opportunities, professional development resources, and expert guidance to help you achieve your career goals with confidence and success.">
+    <meta property="og:image" content="https://career.dgulu.com/assets/img/android-chrome-512x512.png">
+    <meta name="description" content="Career.dgulu.com is your trusted platform for career growth, offering valuable job opportunities, professional development resources, and expert guidance to help you achieve your career goals with confidence and success.">
+    <meta name="twitter:image" content="https://career.dgulu.com/assets/img/android-chrome-512x512.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="website">
+    <meta name="twitter:title" content="Career Development Hub – Opportunities &amp; Guidance at dgulu">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Career.dgulu.com",
+            "url": "https://career.dgulu.com"
+        }
+    </script>
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/android-chrome-512x512.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img src="assets/img/favicon-32x32.png"></span><span>Career.dgulu</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#listings">Job Listings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimony">Testimonies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div style="background: url(&quot;assets/img/career.webp&quot;) center / cover;padding-bottom: 55px;">
+        <div class="container" style="padding-top: 0px;">
+            <div class="row row-cols-1" style="padding-top: 361px;padding-bottom: 0px;">
+                <div class="col" style="margin-top: 0px;">
+                    <h2 class="text-center" style="padding-top: 15px;padding-bottom: 15px;padding-right: 0px;margin-left: 0px;margin-right: 0px;color: var(--bs-secondary-bg);font-size: 54.112px;font-weight: bold;text-decoration: underline;background: rgba(17,15,15,0.54);border-width: 6px;border-style: groove;border-radius: 28px;">Search Jobs</h2>
+                </div>
+                <div class="col"><input type="text" aria-label="Search Jobs" id="job-search-input" placeholder="Search jobs by title, location or company..." style="font-size: 21px;background: rgb(255,255,255);border-radius: 11px;width: 100%;height: 50.5px;text-align: center;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="listings" style="padding-bottom: 148px;padding-top: 55px;">
+        <div class="row row-cols-1 text-center">
+            <div class="col">
+                <h1 style="margin-bottom: 59px;">Job Listings</h1>
+            </div>
+            <div class="col text-start" style="max-width: 720px;margin-right: auto;margin-left: auto;">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <div id="jobs-list"></div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1">
+                            <div class="col" style="text-align: center;"><label class="col-form-label text-uppercase fs-1 fw-bold text-center" style="text-decoration: underline;font-weight: bold;">Categories</label></div>
+                            <div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Technology/ IT</label></div>
+                            <div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Medical</label></div>
+                            <div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Civil Engeneering</label></div>
+                            <div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Mechanical Engeneering</label></div>
+                            <div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Social Sciences</label></div>
+                            <div class="col" style="text-align: center;"><label class="col-form-label" style="font-size: 31px;text-align: center;">Managerial/ HR</label></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background: rgba(0,148,255,0.17);">
+        <div class="container">
+            <figure>
+                <blockquote class="blockquote">
+                    <p class="text-center mb-0" style="padding-top: 26px;">Opportunities don’t happen. You create them.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer text-center">Chris Grosser<br><br></figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5" id="aboutus">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>About Us</h2>
+                <p class="text-start w-lg-50">Carrer.dgulu is a dedicated online platform providing and listing job. opportunities to help individuals find meaningful employment. Our mission is to connect job seekers with employers by making the job&nbsp;search process easy, accessible, and efficient.&nbsp;<br><br>We strive to support&nbsp;career growth and economic empowerment in our community by offering the latest job listings and valuable resources for job hunters.<br><br></p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+            <div class="col">
+                <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/pexels-diohasbi-3280130.jpg">
+                    <div class="card-body p-4">
+                        <p class="text-primary card-text mb-0"><strong>Emphasis: 1</strong></p>
+                        <h4 class="card-title"><strong>Community</strong></h4>
+                        <p class="card-text">Supporting local employment and economic growth.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/pexels-wo-nfoni-media-311038690-28462881.jpg">
+                    <div class="card-body p-4">
+                        <p class="text-primary card-text mb-0"><strong>Emphasis: 2</strong></p>
+                        <h4 class="card-title"><strong>Empowerment</strong></h4>
+                        <p class="card-text">Helping individuals take control of their career journeys</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 200px;" src="assets/img/pexels-diaznash-865530.jpg">
+                    <div class="card-body p-4">
+                        <p class="text-primary card-text mb-0"><strong>Emphasis: 3</strong></p>
+                        <h4 class="card-title"><strong>Accessibility</strong></h4>
+                        <p class="card-text">Making job opportunities easy to find and available to all.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-4 py-xl-5" id="testimony">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Testimonials</h2>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+            <div class="col">
+                <div>
+                    <p class="bg-body-tertiary border rounded border-0 p-4">The service was exceptional and truly helped me achieve my goals. Highly recommended!</p>
+                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/2151696440.webp">
+                        <div>
+                            <p class="fw-bold text-primary mb-0"><strong>Amina Nakato</strong></p>
+                            <p class="text-muted mb-0"><strong>Teacher</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <p class="bg-body-tertiary border rounded border-0 p-4">Professional and reliable—very impressed with the quality and support provided.</p>
+                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/50906.webp">
+                        <div>
+                            <p class="fw-bold text-primary mb-0"><strong>Joseph Okello</strong></p>
+                            <p class="text-muted mb-0"><strong>Engineer</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <p class="bg-body-tertiary border rounded border-0 p-4">Friendly staff and excellent communication. I felt valued every step of the way.</p>
+                    <div class="d-flex"><img class="rounded-circle flex-shrink-0 me-3 fit-cover" width="50" height="50" src="assets/img/2148894886.webp">
+                        <div>
+                            <p class="fw-bold text-primary mb-0"><strong>Grace Namuyimba</strong></p>
+                            <p class="text-muted mb-0"><strong>Nurse</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="position-relative py-4 py-xl-5">
+        <div class="container position-relative" id="contactus" style="padding-bottom: 55px;">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>Contact us</h2>
+                    <p class="w-lg-50">If you have any questions, feedback, or need assistance, please don't hesitate to reach out to us. We're here to help and look forward to hearing from you!<br>Detailed provided below are more efficient i.e Phone, WhatsApp and mail Address</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="d-flex flex-column justify-content-center align-items-start h-100">
+                        <div class="d-flex align-items-center p-3">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-telephone">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+                                </svg></div>
+                            <div class="px-2">
+                                <h6 class="mb-0">Phone</h6>
+                                <p class="mb-0">+256 783 338 952</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-whatsapp">
+                                    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+                                </svg></div>
+                            <div class="px-2">
+                                <h6 class="mb-0">WhatsApp</h6>
+                                <p class="mb-0">+256 783 338 952</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-envelope">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
+                                </svg></div>
+                            <div class="px-2">
+                                <h6 class="mb-0">Email</h6>
+                                <p class="mb-0">support@dgulu.com</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center p-3">
+                            <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pin">
+                                    <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001m-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282"></path>
+                                </svg></div>
+                            <div class="px-2">
+                                <h6 class="mb-0">Location</h6>
+                                <p class="mb-0">Gulu University Street</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                    <div>
+                        <form class="p-3 p-xl-4" method="post">
+                            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" placeholder="Name"></div>
+                            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" placeholder="Email"></div>
+                            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div>
+                            <div><button class="btn btn-primary d-block w-100" type="submit">Send </button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bg-dark">
+        <div class="container text-white py-4 py-lg-5">
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><a href="#aboutus" style="color: rgb(254,254,254);">About Us</a></li>
+                <li class="list-inline-item me-4"><a href="#listings" style="color: rgb(254,254,254);">Job Listings</a></li>
+                <li class="list-inline-item me-4"><a href="#testimony" style="color: rgb(254,254,254);">Testimonies</a></li>
+                <li class="list-inline-item me-4"><a href="#contactus" style="color: rgb(254,254,254);">Contact Us</a></li>
+            </ul>
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"></li>
+                <li class="list-inline-item me-4"><a class="link-light" href="https://dgulu.com/" target="_blank">Gulu City Directory</a></li>
+                <li class="list-inline-item"></li>
+            </ul>
+            <p>All rights reserved @ Gulu City Directory</p>
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><a href="https://www.facebook.com/people/Gulu-City-Directory/61578708332624/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook text-light">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+                        </svg></a></li>
+                <li class="list-inline-item me-4"><a href="https://www.youtube.com/@dgulucom" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-youtube text-light">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408z"></path>
+                        </svg></a></li>
+                <li class="list-inline-item me-4"><a href="https://www.linkedin.com/company/dgulu" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-linkedin text-light">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401m-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4"></path>
+                        </svg></a></li>
+                <li class="list-inline-item me-4"><a href="https://x.com/dgulucom" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter-x text-light">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
+                        </svg></a></li>
+            </ul>
+            <p class="text-muted mb-0">Copyright © 2025 Brand</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
